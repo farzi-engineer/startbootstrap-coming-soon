@@ -29,10 +29,49 @@
     <div class="preloader"></div>
 
     <!-- Main Header-->
-    <header class="main-header">
+    <header class="main-header header-style-two">
 
     	<!--Header-Upper-->
-					
+		<div class="header-upper">
+        	<div class="auto-container">
+            	<div class="clearfix">
+
+                	<div class="pull-left logo-box">
+                    	<div class="logo"><a href="index.html"><img src="images/logo.png" style="height: 57px;" alt="" title=""></a></div>
+                    </div>
+
+                   	<div class="nav-outer clearfix">
+
+						<!-- Main Menu -->
+						<nav class="main-menu navbar-expand-md">
+							<div class="navbar-header">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+									<li><a href="https://medium.com/gaurav-shukla" target="_blank">Blog</a>
+									</li>
+									<!-- <li><a href="contact.html">Contact us</a></li> -->
+								</ul>
+							</div>
+
+						</nav>
+
+						<div class="outer-box">
+							<!--Nav Toggler-->
+							<div class="sidebar-btn hidden-bar-opener"><div class="nav-btn"><span class="flaticon-menu"></span></div></div>
+						</div>
+
+					</div>
+
+                </div>
+            </div>
+        </div>
         <!--End Header Upper-->
 
 		<!--Sticky Header-->
@@ -70,8 +109,8 @@
 				<div class="icon-six" style="background-image:url(images/icons/icon-6.png)"></div>
 			</div>
             <div class="inner-container clearfix">
-				<div class="pull-right">
-					<h1>Contact Us</h1>
+				<div>
+					<h1>Free Consultation</h1>
 				</div>
                 
             </div>
@@ -86,7 +125,7 @@
 			<div class="sec-title centered">
 				<div class="title">We Help You</div>
 				<div class="separator"><span></span></div>
-				<h2>Contact Us Now</h2>
+				<h2>Consult Us Now</h2>
 			</div>
 
 			<!-- Contact Form -->
@@ -95,19 +134,27 @@
 					<div class="row clearfix">
 
 						<div class="col-lg-6 col-md-6 col-sm-12 form-group">
-							<input type="text" name="username" placeholder="Name" required>
+							<label class="consult-form-label" for="name">Name <span class="required-field">*</span> </label>
+							<input type="text" name="username" id="name" placeholder="Name" required>
 						</div>
 
 						<div class="col-lg-6 col-md-6 col-sm-12 form-group">
-							<input type="email" name="email" placeholder="Email" required>
+							<label class="consult-form-label" for="email">Email <span class="required-field">*</span></label>
+							<input type="email" name="email" id="email" placeholder="Email" required>
 						</div>
 
 						<div class="col-lg-12 col-md-12 col-sm-12 form-group">
-							<input type="text" name="subject" placeholder="Subject" required>
+							<label class="consult-form-label" for="website">Website/Linkedin <span class="required-field">*</span></label>
+							<input type="text"  id="website" name="subject" placeholder="Website/Linkedin" required>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 form-group">
+							<label class="consult-form-label" for="pno">Phone Number </label>
+							<input type="tel"  id="pno" name="subject" placeholder="Phone Number">
 						</div>
 
 						<div class="col-lg-12 col-md-12 col-sm-12 form-group">
-							<textarea name="message" placeholder="Message"></textarea>
+							<label  class="consult-form-label" for="requirement">Short write up of your requirement/ idea so that we can connect you to the right person on our team :<span class="required-field">*</span></label>
+							<textarea name="message" id="requirement" placeholder="Requirements"></textarea>
 						</div>
 
 						<div class="col-lg-12 col-md-12 col-sm-12 text-center form-group">
@@ -124,15 +171,15 @@
 	<!-- End Contact Section -->
 
 	<!-- Map Contact Section -->
-    <section class="map-contact-page-section">
-		<div class="auto-container">
+    <section class="map-contact-page-section" >
+		<div class="auto-container" >
 			<!-- Title Box -->
 			<div class="title-box">
 				<h2>Our Support Guys or <br> Make Appointment With Our Consultan</h2>
-				<div class="text">Please contact us using the information below. For additional information on our management consulting services, please visit <br> the appropriate page on our site.</div>
+				<div class="text">Please consult us using the information below. For additional information on our management consulting services, please visit <br> the appropriate page on our site.</div>
 			</div>
 
-			<div class="map-outer">
+			<div class="map-outer" >
 				<div class="map-canvas"
 					data-zoom="12"
 					data-lat="28.6930126"
@@ -149,70 +196,11 @@
 	<!-- End Map Contact Section -->
 
 	<!-- Contact Info Section -->
-    <section class="contact-info-section">
-		<div class="auto-container">
-			<div class="row clearfix">
-
-				<div class="column col-lg-3 col-md-6 col-sm-12">
-					<div class="image">
-						<img src="images/resource/contact-1.jpg" alt="" />
-					</div>
-				</div>
-
-				<!-- <div class="column col-lg-3 col-md-6 col-sm-12">
-					<h3>United Kingdom</h3>
-					<ul>
-						<li>49488 Avenida Obregon, La Quinta, CA 92253</li>
-						<li>+1-(281)-813 926 <br> +1-(281)-813 612</li>
-						<li>support@ocean.com.uk</li>
-					</ul>
-				</div>
-
-				<div class="column col-lg-3 col-md-6 col-sm-12">
-					<h3>Australia</h3>
-					<ul>
-						<li>13/1 Dixon Street, Sydney <br> NSW 2000</li>
-						<li>+1-(281)-813 926 <br> +1-(281)-813 612</li>
-						<li>support@ocean.com.uk</li>
-					</ul>
-				</div>
-
-				<div class="column col-lg-3 col-md-6 col-sm-12">
-					<h3>Netherlands</h3>
-					<ul>
-						<li>Nieuwe Leliestraat 27-HS <br> 101J Amsterdam</li>
-						<li>+1-(281)-813 926 <br> +1-(281)-813 612</li>
-						<li>support@ocean.com.uk</li>
-					</ul>
-				</div> -->
-
-			</div>
-		</div>
-	</section>
+    
 	<!-- End Contact Info Section -->
 
 	<!--Sponsors Section-->
-	<section class="sponsors-section">
-		<div class="auto-container">
-
-			<div class="carousel-outer">
-                <!--Sponsors Slider-->
-                <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li><div class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></div></li>
-					<li><div class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></div></li>
-                </ul>
-            </div>
-
-		</div>
-	</section>
+	
 	<!--End Sponsors Section-->
 
 	<!--Main Footer-->
