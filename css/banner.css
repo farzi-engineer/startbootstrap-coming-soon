@@ -47,7 +47,7 @@
 }
 .slide-section-two
 {
-    height: 280px;
+    min-height: 320px;
 }
 .slide-section-two img
 {
@@ -55,9 +55,13 @@
 }
 .imagesection{
     text-align: center;
-    height:500px;
+	min-height:500px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
     width:100%;
 }
+
 .imagesection img{
     width:96%;    
     margin:0 auto;
@@ -69,9 +73,9 @@
     width:100%;
 }
 .slidingVertical span{
-	animation: topToBottom 8s linear infinite 0s;
-	-ms-animation: topToBottom 8s linear infinite 0s;
-	-webkit-animation: topToBottom 8s linear infinite 0s;
+	animation: topToBottom 12s linear infinite 0s;
+	-ms-animation: topToBottom 12s linear infinite 0s;
+	-webkit-animation: topToBottom 12s linear infinite 0s;
 	
 	opacity: 0;
 	overflow: hidden;
@@ -87,11 +91,11 @@
 	-ms-animation-delay: 4s;
 	-webkit-animation-delay: 4s;
 }
-/* .slidingVertical span:nth-child(3){
-	animation-delay: 5s;
-	-ms-animation-delay: 5s;
-	-webkit-animation-delay: 5s;
-} */
+.slidingVertical span:nth-child(3){
+	animation-delay: 8s;
+	-ms-animation-delay: 8s;
+	-webkit-animation-delay: 8s;
+}
 /* .slidingVertical span:nth-child(4){
 	animation-delay: 7.5s;
 	-ms-animation-delay: 7.5s;
@@ -138,9 +142,9 @@
 	width:100%;
 }
 .slidingHorizontal span{
-	animation: leftToRight 8s linear infinite 0s;
-	-ms-animation: leftToRight 8s linear infinite 0s;
-	-webkit-animation: leftToRight 8s linear infinite 0s;
+	animation: leftToRight 12s linear infinite 0s;
+	-ms-animation: leftToRight 12s linear infinite 0s;
+	-webkit-animation: leftToRight 12s linear infinite 0s;
 	color: #00abe9;
 	opacity: 0;
 	overflow: hidden;
@@ -151,12 +155,12 @@
 	-ms-animation-delay: 4s;
 	-webkit-animation-delay: 4s;
 }
-/* .slidingHorizontal span:nth-child(3){
-	animation-delay: 5s;
-	-ms-animation-delay: 5s;
-	-webkit-animation-delay: 5s;
+.slidingHorizontal span:nth-child(3){
+	animation-delay: 8s;
+	-ms-animation-delay: 8s;
+	-webkit-animation-delay: 8s;
 }
-.slidingHorizontal span:nth-child(4){
+/* .slidingHorizontal span:nth-child(4){
 	animation-delay: 7.5s;
 	-ms-animation-delay: 7.5s;
 	-webkit-animation-delay: 7.5s;
