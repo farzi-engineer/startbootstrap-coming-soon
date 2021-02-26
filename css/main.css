@@ -485,7 +485,7 @@ img{
 	text-transform:uppercase;
 	line-height:60px;
 	text-align:center;
-	z-index:100;
+	z-index:1500;
 	cursor:pointer;
 	background:#0a0a0a;
 	display:none;
@@ -856,6 +856,10 @@ img{
 	float:right;
 	padding:17px 0px;
 }
+.bld-fnt{
+	color: #fff;
+	font-weight: 600;
+}
 
 /* Cart Box */
 
@@ -989,6 +993,7 @@ img{
 	float:right;
 	margin-top:42px;
 	margin-left:40px;
+	margin-right: 20px;
 }
 
 .main-header .header-upper .outer-box .nav-toggler{
@@ -1135,6 +1140,7 @@ img{
 
 .main-header .header-upper .logo-box .logo{
 	position:relative;
+	padding-left: 20px;
 }
 
 .main-header .header-lower{
@@ -1160,6 +1166,7 @@ img{
 .main-menu .navigation{
 	position:static;
 	margin:0px;
+	padding-left: 20px;
 }
 
 .main-menu .navigation > li{
@@ -1647,6 +1654,16 @@ img{
 	line-height:2.1em;
 	margin-bottom:40px;
 	font-weight:700;
+}
+.txt-cntr{
+	text-align: initial;
+}
+.dspl-mob{
+	display: none;
+	color: #fff;
+    padding-right: 30px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
 }
 
 /***
@@ -3163,7 +3180,9 @@ img{
 	position:relative;
 	padding:170px 0px 0px;
 }
-
+.logo-foot-img{
+	height: 130px;
+}
 .main-footer.margin-top{
 	margin-top:-90px;
 }
@@ -3216,7 +3235,35 @@ img{
 	line-height: 1.8em;
 	margin-bottom: 30px;
 }
-
+.icn-foot{
+	color: black;
+	padding-right: 1rem;
+	padding-top: 1rem;
+}
+.para-foot{
+	line-height: 1;
+	font-size: 18px;
+	font-weight: 800;
+	color: black;
+}
+.copyright-foot{
+	z-index: 1001;
+    position: relative;
+	background-color: #000000;
+	color: #fff;
+	padding: 20px 0px;
+    text-align: center;
+    font-size: 15px;
+	margin-top: 90px;
+}
+ .footerColumn{
+	 margin-bottom: 40px;
+ }
+ .bld-foot{
+	 color: black;
+	 font-weight: 500;
+	 font-size: 16px;
+ }
 /* List Link */
 
 .list-link{
@@ -3367,7 +3414,7 @@ img{
 }
 
 .main-footer.style-two{
-	background:none;
+	background:#fafafa;
 }
 
 .main-footer.style-two .list-link li a,
@@ -3489,7 +3536,7 @@ img{
 	color:#ffffff;
 	font-size:18px;
 	line-height:2.1em;
-	margin-bottom:40px;
+	margin-bottom:30px;
 	font-weight:700;
 }
 
@@ -8012,6 +8059,13 @@ input:focus{
 }
 .required-field{
 	color:red;
+}
+/* calendly */
+.calendly-badge-widget {
+    position: fixed;
+    left: 20px;
+    bottom: 15px;
+    z-index: 500 !important;
 }
 /* Right To Left */
 

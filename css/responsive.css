@@ -130,7 +130,7 @@
 	}
 
 	.banner-section-two .content-column .inner-column{
-		padding-top:0px;
+		padding-top:140px;
 		padding-bottom:80px;
 	}
 
@@ -172,7 +172,9 @@
 		margin:0px;
 		text-align:left;
 	}
-
+	.banner-section-two .content-column .inner-column{
+		padding-top: 0px;
+	}
 	.main-header .nav-outer{
 		width:100%;
 	}
@@ -182,14 +184,14 @@
 	}
 
 	.banner-section-two{
-		padding-top:100px;
+		padding-top:90px;
 		background-color:#2a12a9;
 		background-image:none !important;
 	}
 
 	.main-header{
 		position:relative;
-		background-color:#222222;
+		background-color:#2a12a9;
 	}
 
 	.main-header .header-upper .outer-box{
@@ -408,7 +410,9 @@
 	.main-menu .navigation > li.has-mega-menu{
 		position:relative !important;
 	}
-
+	.banner-section-two{
+		padding-top: 50px;
+	}
 	.header-upper .logo-outer {
 		position:relative;
 		left:0px;
@@ -470,7 +474,10 @@
 		right:0px;
 		z-index:12;
 	}
-
+    .dspl-mob{
+		display: initial;
+		
+	}
 	.main-menu .navbar-header .navbar-toggle{
 		display:inline-block;
 		z-index:12;
@@ -669,9 +676,11 @@
 
 	.main-header .nav-outer{
 		width:100%;
-		margin-top:-75px;
+		margin-top:-90px;
 	}
-
+    .txt-cntr{
+		text-align: center;
+	}
 	.main-slider h3{
 		font-size:18px;
 	}
@@ -840,10 +849,20 @@
 	.sidebar-page-container .comments-area .reply-comment{
 		margin-left:0px;
 	}
+	.copyright-foot{
+		margin-top: 0px;
+	}
+	.main-footer{
+		padding: 110px 0px 0px;
+	}
+	.logo-foot-img{
+		height: 100px;
+	}
 
 }
 
 @media only screen and (max-width: 599px){
+	
 
 	.main-slider .price,
 	.main-slider h3.light{
@@ -905,6 +924,9 @@
 }
 
 @media only screen and (max-width: 479px) {
+	.calendly-badge-widget .calendly-badge-content{
+		font-size: 12px !important;
+	}
 
 	.main-header .search-box-outer .dropdown-menu{
 		top:44px;
