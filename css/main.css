@@ -5962,10 +5962,18 @@ img {
 	overflow: hidden;
 	background-position: center bottom;
 	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: auto;
 	text-align: center;
+
+	@media only screen and (max-width: 500px) {
+		width: 50%;
+		height: 50%;
+	}
 }
 
-.page-title .section-icons {
+/* .page-title .section-icons {
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -6025,14 +6033,13 @@ img {
 	width: 58px;
 	height: 67px;
 	background-repeat: no-repeat;
-}
+} */
 
 .page-title .inner-container {
 	position: relative;
 	z-index: 5;
-	padding: 265px 0px 265px;
+	padding: 15em 0em 15em;
 	text-align: center;
-
 }
 
 .page-title .auto-container {
