@@ -5962,6 +5962,7 @@ img {
 	overflow: hidden;
 	background-position: center bottom;
 	background-repeat: no-repeat;
+	text-align: center;
 }
 
 .page-title .section-icons {
@@ -6030,6 +6031,8 @@ img {
 	position: relative;
 	z-index: 5;
 	padding: 265px 0px 265px;
+	text-align: center;
+
 }
 
 .page-title .auto-container {
@@ -7663,7 +7666,6 @@ img {
 .contact-form > h6 {
 	font-size: 12px;
 }
-
 
 .contact-form .form-group input[type="text"],
 .contact-form .form-group input[type="password"],
