@@ -3216,6 +3216,10 @@ img {
 
 .sponsors-section .image-box {
 	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
 	text-align: center;
 	border-radius: 10px;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
@@ -4865,6 +4869,7 @@ img {
 
 .testimonial-block-two .inner-box {
 	position: relative;
+	height: 350px;
 	border-radius: 15px;
 	padding: 35px 45px 35px;
 	background-color: #ffffff;
