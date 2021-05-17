@@ -877,6 +877,10 @@
 		font-size:26px;
 	}
 
+	.sponsors-section .image-box {
+		height: 250px;
+	}
+
 	.page-title .inner-container .pull-left,
 	.page-title .inner-container .pull-right{
 		width:100%;
@@ -977,6 +981,10 @@
 	.banner-section-two .content-column h1,
 	.banner-section .content-column h1{
 		font-size:30px;
+	}
+
+	.testimonial-block-two .inner-box{
+		height: 820px;
 	}
 
 	.testimonial-block .inner-box .upper-box .upper-inner .image{
