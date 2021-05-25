@@ -983,7 +983,7 @@
 	}
 
 	.testimonial-block-two .inner-box {
-		height: 820px;
+		height: 720px;
 	}
 
 	.app-block .inner-box .content .icon-box{
@@ -1035,9 +1035,20 @@
 		margin-top:30px;
 	}
 
+	.testimonial-block-two .inner-box .upper-box .quote-icon{
+		display: none;
+	}
+
+	.testimonial-block-two .inner-box .upper-box .author-info{
+		padding-top: 0px;
+	}
+
 	.testimonial-block-two .inner-box .upper-box .author-image{
 		position:relative;
 		margin-top:15px;
 	}
 
+	.testimonial-block-two .inner-box .upper-box .author-image img{
+		border: 1px solid rgb(53, 53, 53);
+	}
 }
