@@ -983,7 +983,7 @@
 	}
 
 	.testimonial-block-two .inner-box {
-		height: 720px;
+		height: 450px;
 	}
 
 	.app-block .inner-box .content .icon-box{
@@ -1049,6 +1049,17 @@
 	}
 
 	.testimonial-block-two .inner-box .upper-box .author-image img{
+		margin: 0 auto;
 		border: 1px solid rgb(53, 53, 53);
+		width: 150px;
+	}
+
+	.footer-container {
+		text-align: center;
+	}
+
+	.footerColumn .footer-flex {
+		display: flex;
+		justify-content: space-around;
 	}
 }
