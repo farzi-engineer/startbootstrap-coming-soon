@@ -1051,7 +1051,9 @@
 	.testimonial-block-two .inner-box .upper-box .author-image img{
 		margin: 0 auto;
 		border: 1px solid rgb(53, 53, 53);
-		width: 150px;
+		border-radius: 100%;
+		width: 100px;
+		height: 100px;
 	}
 
 	.footer-container {
@@ -1061,5 +1063,6 @@
 	.footerColumn .footer-flex {
 		display: flex;
 		justify-content: space-around;
+		text-align: left;
 	}
 }
