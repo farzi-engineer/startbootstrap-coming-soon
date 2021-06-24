@@ -783,7 +783,7 @@ img {
 ***/
 
 .main-header {
-	background: #13007e;
+	position: absolute;
 	z-index: 999;
 	width: 100%;
 }
@@ -1036,19 +1036,6 @@ img {
 	z-index: 1;
 }
 
-.main-header .header-upper .e-com-btn {
-	background: #1800ff;
-	color: white;
-	padding: 0 10px;
-	border-radius: 5px;
-}
-
-.main-header .header-upper .e-com-btn:hover {
-	background: white;
-	color: #1800ff;
-	cursor: pointer;
-}
-
 .main-header .header-upper .outer-box {
 	position: relative;
 	float: right;
@@ -1186,11 +1173,12 @@ img {
 .main-header .nav-outer {
 	position: static;
 	float: right;
+	margin-top: 30px;
 }
 
 .main-header .header-upper .logo-box {
 	position: relative;
-	padding: 10px 0 0 0;
+	padding: 55px 0px 0px;
 	transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-webkit-transition: all 500ms ease;
@@ -4910,18 +4898,6 @@ img {
 	color: #222222;
 	font-size: 14px;
 	line-height: 2.2em;
-}
-
-.testimonial-block-two .inner-box .lower-box .linked-in {
-	padding: 0 10px;
-	border-radius: 3px;
-	background: rgb(93, 190, 255);
-	color: white;
-}
-
-.testimonial-block-two .inner-box .lower-box .linked-in:hover  {
-	cursor: pointer;
-	background: rgb(93, 117, 255);
 }
 
 /***
